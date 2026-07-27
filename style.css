@@ -200,3 +200,17 @@ nav{
     margin-right:0;
 }
 }
+
+/* Page Fade-in */
+body{
+    opacity:0;
+    transition:opacity 0.8s ease;
+}
+
+/* Active Navigation Link */
+nav a.active{
+    color:#d63384;
+    font-weight:600;
+    border-bottom:2px solid #d63384;
+    padding-bottom:4px;
+}
